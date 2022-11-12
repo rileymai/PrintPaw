@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PrintPaw.master.cs" Inherits="PrintPaw.PrintPaw" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="default.Master.cs" Inherits="PrintPaw.PrintPaw" %>
 
 <!DOCTYPE html>
 

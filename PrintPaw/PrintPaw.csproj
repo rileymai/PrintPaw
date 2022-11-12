@@ -67,21 +67,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PrintPaw.Master.cs">
-      <DependentUpon>PrintPaw.Master</DependentUpon>
+    <Compile Include="default.Master.cs">
+      <DependentUpon>default.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PrintPaw.Master.designer.cs">
-      <DependentUpon>PrintPaw.Master</DependentUpon>
+    <Compile Include="default.Master.designer.cs">
+      <DependentUpon>default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="PrintPaw.Master" />
+    <Content Include="default.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
