@@ -4,12 +4,64 @@
 
 <html>
 <head runat="server">
-    <title></title>
+<title>PrintPaws</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Poppins", sans-serif}
+    body, html {
+    height: 100%;
+    line-height: 1.8;
+    }
+
+    .w3-bar .w3-button {
+    padding: 16px;
+    }
+        .auto-style1 {
+            font-size: medium;
+        }
+        .auto-style2 {
+            font-size: large;
+        }
+        .auto-style3 {
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+            top: 3px;
+            left: 2px;
+            background-color: #f7dca3;
+        }
+
+        .custom-text-color {
+            color: #AA8066;
+        }
+        .w3-bar-item,.w3-button {
+            font-size: 22px;
+        }
+    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body style="margin-top: 0">
     <form id="form1" runat="server">
+        <!-- Navbar (sit on top) -->
+        <div class="auto-style3" id="Navigationbar">     
+            <image src="Images/logo-btn.jpg" id="Logo" style="height:60px; width:150px;padding-left: 15px"/>
+            <!-- Right-sided navbar links -->
+            <div class="w3-right w3-hide-small custom-text-color">
+              <a href="#home" class="w3-bar-item w3-button">Home</a>
+              <a href="#aboutus" class="w3-bar-item w3-button"><i class="fa fa-user"></i> About Us</a>
+              <a href="#products" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Products</a>
+              <a href="#login" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Login</a> </pan>
+              <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
+                =</div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+        </div>
+
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
