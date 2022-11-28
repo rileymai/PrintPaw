@@ -26,7 +26,7 @@
         .auto-style6 {
             font-size: 20pt;
             text-align: center;
-            height: 36px;
+            height: 25px;
         }
         .auto-style7 {
             font-size: 16px;
@@ -43,6 +43,9 @@
         }
         .newStyle2 {
             color: #AA8066;
+        }
+        .w3-container {
+            background-color: #FDF6E2;
         }
     </style>
 </asp:Content>
