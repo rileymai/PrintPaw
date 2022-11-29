@@ -79,6 +79,7 @@
     <Content Include="Images\NhuMai_Headshot.jpg" />
     <Content Include="Images\NickG_Headshot.jpg" />
     <Content Include="Login.aspx" />
+    <Content Include="Registration.aspx" />
     <Content Include="Success.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -126,6 +127,13 @@
       <DependentUpon>printpaws.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Success.aspx.cs">
       <DependentUpon>Success.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

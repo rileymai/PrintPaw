@@ -25,6 +25,10 @@
             text-align: center;
             height: 27px;
         }
+    .auto-style8 {
+        width: 354px;
+        text-align: justify;
+    }
  </style>
 </asp:Content>
 
@@ -58,7 +62,28 @@
      </td>
      <td>
      <asp:Label ID="LblError" runat="server"></asp:Label>
+     &nbsp;</td>
+     </tr>
+     <tr>
+     <td class="auto-style3">
+         &nbsp;</td>
+     <td>
+         &nbsp;</td>
+     </tr>
+     <tr>
+     <td class="auto-style8">
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Don&#39;t have an account?<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <asp:HyperLink ID="hlRegistration1" runat="server" NavigateUrl="~/Registration.aspx">Sign up here!</asp:HyperLink>
      </td>
+     <td>
+         &nbsp;</td>
+     </tr>
+     <tr>
+     <td class="auto-style4">
+         &nbsp;</td>
+     <td>
+         &nbsp;</td>
      </tr>
      </table>
 </asp:Content>
