@@ -11,7 +11,20 @@ namespace PrintPaw
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //Verify if the user has logged in with the right credentials.
+            //If it is successful, display a welcome text.
+            //If it is not successsul, redirect user to the login.
+            //Verify is there is a user session.
+            if (Session["User@gmail.com"] == null)
+            {
+                //When there is not a value in the login, then redirect to the login again.
+                Response.Redirect("Login.aspx");
+            }
+            else
+            {
+                //Page loads the page and displays a welcome message.
+                lblUser.Text = Session["User@gmail.com"].ToString();
+            }
         }
     }
 }
