@@ -18,15 +18,14 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p>
-        <br />
-    </p>
-    <p>
-        &nbsp;</p>
+
     <h5 class="auto-style2"><strong>Contact Us</strong></h5>
-    <p>
-        <asp:Image ID="ContactCat" runat="server" Height="810px" ImageUrl="~/Images/kitten-EDIT.jpg" Width="1668px" Object-fit="contain"/>
-    </p>
+    <div class="w3-display-container w3-animate-opacity">
+        <img src="Images/kitten-EDIT.jpg" alt="boat" style="width:100%;">
+        <div class="w3-container w3-display-bottomleft w3-margin-bottom" style="left: -3px; bottom: -18px">  
+            <button style="color:#AA8066" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To PrintPaws">PrintPaws</button>
+        </div>
+    </div>
     <p>
         &nbsp;</p>
     <h1 class="auto-style4"><span class="custom-text-color">You can reach us by phone at (425) 452-1234 or by emailing us at </span><a class="custom-text-color" href="mailto:PrintPaws@gmail.com">PrintPaws@gmail.com</a><span class="custom-text-color">. Office hours of operation are as follows:</span></h1>

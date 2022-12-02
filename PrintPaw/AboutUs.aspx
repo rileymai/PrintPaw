@@ -499,10 +499,11 @@
             </div>
           </div>
         </div>
+
         <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
           <div class="card">
             <div class="img-box">
-              <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person3.png"
+              <img src="Images/DestinyG_Headshot.jpg"
                 class="person-img" />
             </div>
             <div class="card-content-box">
@@ -513,6 +514,7 @@
             </div>
           </div>
         </div>
+
         <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
           <div class="card">
             <div class="img-box">
@@ -530,7 +532,7 @@
           <div class="responsive-cell-block wk-mobile-12 wk-ipadp-10 wk-tab-8 wk-desk-6 card-container">
            <div class="card">
             <div class="img-box">
-              <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/person3.png"
+              <img src="Images/KhanhPhan_Headshot.jpeg"
                 class="person-img" />
             </div>
             <div class="card-content-box">

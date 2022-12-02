@@ -75,6 +75,8 @@
     <Content Include="Images\customer1.jpg" />
     <Content Include="Images\customer2.jpg" />
     <Content Include="Images\customer3.jpg" />
+    <Content Include="Images\DestinyG_Headshot.JPG" />
+    <Content Include="Images\KhanhPhan_Headshot.jpeg" />
     <Content Include="Images\kitten-EDIT.jpg" />
     <Content Include="Images\logo-btn.jpg" />
     <Content Include="Images\logo.png" />
