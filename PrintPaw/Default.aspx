@@ -47,6 +47,31 @@
         .w3-container {
             background-color: #FDF6E2;
         }
+        .newStyle3 {
+            font-family: "comic Sans MS";
+            color: #AA8066;
+        }
+        .auto-style10 {
+            font-family: "comic Sans MS";
+            color: #AA8066;
+            font-size: medium;
+        }
+        .newStyle4 {
+            font-family: "comic Sans MS";
+            font-size: medium;
+            color: #AA8066;
+        }
+        .newStyle5 {
+            font-family: "comic Sans MS";
+            color: #AA8066;
+        }
+        .newStyle6 {
+            font-family: "comic Sans MS";
+            color: #AA8066;
+        }
+        .auto-style11 {
+            font-size: medium;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -87,12 +112,9 @@
     <div class="w3-card w3-white">
       <img src="Images/customer2.jpg" alt="Snow" style="width:100%;height:405px;">
       <div class="w3-container">
-      <h3>Devin & Kayla</h3>
-      <h4>Children, animal lovers</h4>
-      <p>Blablabla</p>
-      <p>Blablabla</p>
-      <p>Blablabla</p>
-      <p>Blablabla</p>
+      <h3 class="newStyle6">Devin & Kayla</h3>
+      <h4 class="newStyle4">Children, animal lovers</h4>
+      <p class="newStyle6"><span class="auto-style11">Hi PawPrints, we adopted a dog a few months ago and he has made progress. Doug has been a loyal companion to have around with the kids. He has brought joy in the family providing him a forever home with affectionate love.</span></p>
       </div>
       </div>
         </div>
@@ -101,12 +123,9 @@
         <div class="w3-card w3-white">
           <img src="Images/customer3.jpg" alt="Lights" class="auto-style2">
           <div class="w3-container">
-          <h3>Jane</h3>
-          <h4>Animal Lover</h4>
-          <p>Blablabla</p>
-          <p>Blablabla</p>
-          <p>Blablabla</p>
-          <p>Blablabla</p>
+          <h3><span class="newStyle5">Jane</span></h3>
+          <h4 class="newStyle4">Animal Lover</h4>
+          <p class="newStyle4">Sasha, the golden retriever has been a great addition in my life. She is a caring dog that is always making sure everything is fine. Sasha has been with me for 4 years and I have enjoyed loving a companion like her. My life could not be better without her.</p>
            </div>
          </div>
     </div>
@@ -115,12 +134,9 @@
     <div class="w3-card w3-white">
       <img src="Images/customer1.jpg" alt="Mountains" style="width:92%; height:405px;">
       <div class="w3-container">
-      <h3>Josh & Rebecca</h3>
-      <h4>Newly weds</h4>
-      <p>Blablabla</p>
-      <p>Blablabla</p>
-      <p>Blablabla</p>
-      <p>Blablabla</p>
+      <h3 class="newStyle3">Josh & Rebecca</h3>
+      <h4 class="auto-style10">Newly weds</h4>
+      <p class="auto-style10">We rescued Max from your rescue a year ago as a newlywed. As we settle into our new home, we enjoyed having our new dog with us. Max has been a fun and loyal dog with a little bit of energy. This dog has touched our hearts by his personality.  </p>
       </div>
       </div>
     </div>
