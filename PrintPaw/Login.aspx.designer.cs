@@ -69,7 +69,7 @@ namespace PrintPaw
         protected global::System.Web.UI.WebControls.HyperLink hlRegistration1;
 
         /// <summary>
-        /// sqlInsert control.
+        /// sqlSelect control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.

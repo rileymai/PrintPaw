@@ -42,7 +42,7 @@ namespace PrintPaw
             {
                 email = drReader.GetString(0).Trim();
                 pass = drReader.GetString(1).Trim();
-                name = drReader.GetString(2).Trim() + " " + drReader.GetString(2).Trim();
+                name = drReader.GetString(2).Trim() + " " + drReader.GetString(3).Trim();
             }
             c.Close();
 
