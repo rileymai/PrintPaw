@@ -74,7 +74,7 @@
         </div>
     </div>
     <p>  </p>
-    <p>  </p>
+    <p>  &nbsp;</p>
     <table class="auto-style2">
      <tr>
      <td class="auto-style5"><strong><span class="newStyle1">Sign-In</span></strong></td>
@@ -124,7 +124,13 @@
      </tr>
      <tr>
      <td class="auto-style4">
-         &nbsp;</td>
+         <asp:SqlDataSource ID="sqlSelect" runat="server" ConnectionString="<%$ ConnectionStrings:F22Team7ConnectionString %>" SelectCommand="SELECT * FROM [Login] WHERE (([Email] = @Email) AND ([Password] = @Password))">
+             <SelectParameters>
+                 <asp:Parameter Name="Email" Type="String" />
+                 <asp:Parameter Name="Password" Type="String" />
+             </SelectParameters>
+         </asp:SqlDataSource>
+         </td>
      <td>
          &nbsp;</td>
      </tr>

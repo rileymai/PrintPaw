@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
+using System.Data.SqlClient;
+using System.Data.Sql;
 
 namespace PrintPaw
 {
@@ -15,16 +18,38 @@ namespace PrintPaw
         }
         protected void TextBox1_TextChanged(object sender, EventArgs e)
         {
+
         }
         protected void BtnSubmit_Click(object sender, EventArgs e)
         {
             //Create the variables to be stored in the Username and Password.
-            string Username = "User@gmail.com";
-            string Password = "Password1";
-            if (TxtUsername.Text == Username && TxtPassword.Text == Password)
+            string email = "";
+            string pass = "";
+            string name = ""; 
+
+            SqlConnection c = new SqlConnection(sqlSelect.Data Source = mimas.itds.unt.edu; Initial Catalog = F22Team7; Persist Security Info = True; User ID = Team7; Password = Bcis4720T7);
+            SqlCommand cmdSelect = new SqlCommand(sqlSelect.SelectCommand);
+
+            cmdSelect.Parameters.AddWithValue("@Email", TxtUsername.Text.Trim());
+            cmdSelect.Parameters.AddWithValue("@Password", TxtPassword.Text.Trim());
+
+            cmdSelect.Connection = c;
+            SqlDataReader drReader;
+            c.Open();
+            drReader = cmdSelect.ExecuteReader(CommandBehavior.CloseConnection);
+
+            while (drReader.Read())
+            {
+                email = drReader.GetString(0).Trim();
+                pass = drReader.GetString(1).Trim();
+                name = drReader.GetString(2).Trim() + " " + drReader.GetString(2).Trim();
+            }
+            c.Close();
+
+            if (TxtUsername.Text == email && TxtPassword.Text == pass)
             {
                 //This code is executed if the crednetials match.
-                Session["User@gmail.com"] = Username;
+                Session["User"] = name;
                 //Send the session variable to the success page.
                 Response.Redirect("Success.aspx");
             }
@@ -36,6 +61,7 @@ namespace PrintPaw
         }
         protected void BtnClear_Click(object sender, EventArgs e)
         {
+
         }
     }
 }

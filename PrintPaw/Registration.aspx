@@ -157,31 +157,14 @@
         </tr>
         <tr>
             <td>
-                <asp:SqlDataSource ID="sqlInsert" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:F22Team7ConnectionString %>" DeleteCommand="DELETE FROM [Login] WHERE [Email] = @original_Email AND [Password] = @original_Password AND [FName] = @original_FName AND [LName] = @original_LName AND [YOB] = @original_YOB" InsertCommand="INSERT INTO [Login] ([Email], [Password], [FName], [LName], [YOB]) VALUES (@Email, @Password, @FName, @LName, @YOB)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT [Email], [Password], [FName], [LName], [YOB] FROM [Login]" UpdateCommand="UPDATE [Login] SET [Password] = @Password, [FName] = @FName, [LName] = @LName, [YOB] = @YOB WHERE [Email] = Email AND [Password] = @original_Password AND [FName] = @original_FName AND [LName] = @original_LName AND [YOB] = @original_YOB">
-                    <DeleteParameters>
-                        <asp:Parameter Name="original_Email" Type="String" />
-                        <asp:Parameter Name="original_Password" Type="String" />
-                        <asp:Parameter Name="original_FName" Type="String" />
-                        <asp:Parameter Name="original_LName" Type="String" />
-                        <asp:Parameter Name="original_YOB" Type="Int32" />
-                    </DeleteParameters>
+                <asp:SqlDataSource ID="sqlInsert" runat="server" ConnectionString="<%$ ConnectionStrings:F22Team7ConnectionString %>" InsertCommand="INSERT INTO [Login] ([Email], [Password], [FName], [LName], [YOB]) VALUES (@Email, @Password, @FName, @LName, @YOB)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT [Email], [Password], [FName], [LName], [YOB] FROM [Login]">
                     <InsertParameters>
                         <asp:Parameter Name="Email" Type="String" />
                         <asp:Parameter Name="Password" Type="String" />
                         <asp:Parameter Name="FName" Type="String" />
                         <asp:Parameter Name="LName" Type="String" />
-                        <asp:Parameter Name="YOB" Type="Int32" />
+                        <asp:Parameter Name="YOB" Type="String" />
                     </InsertParameters>
-                    <UpdateParameters>
-                        <asp:Parameter Name="Password" Type="String" />
-                        <asp:Parameter Name="FName" Type="String" />
-                        <asp:Parameter Name="LName" Type="String" />
-                        <asp:Parameter Name="YOB" Type="Int32" />
-                        <asp:Parameter Name="original_Password" Type="String" />
-                        <asp:Parameter Name="original_FName" Type="String" />
-                        <asp:Parameter Name="original_LName" Type="String" />
-                        <asp:Parameter Name="original_YOB" Type="Int32" />
-                    </UpdateParameters>
                 </asp:SqlDataSource>
             </td>
             <td>&nbsp;</td>
