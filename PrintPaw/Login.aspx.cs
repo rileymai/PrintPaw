@@ -27,7 +27,7 @@ namespace PrintPaw
             string pass = "";
             string name = ""; 
 
-            SqlConnection c = new SqlConnection(sqlSelect.Data Source = mimas.itds.unt.edu; Initial Catalog = F22Team7; Persist Security Info = True; User ID = Team7; Password = Bcis4720T7);
+            SqlConnection c = new SqlConnection(sqlSelect.ConnectionString);
             SqlCommand cmdSelect = new SqlCommand(sqlSelect.SelectCommand);
 
             cmdSelect.Parameters.AddWithValue("@Email", TxtUsername.Text.Trim());
