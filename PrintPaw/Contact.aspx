@@ -31,6 +31,28 @@
             text-align: center;
             font-size: medium;
         }
+        .newStyle2 {
+            font-family: "comic Sans MS";
+            color: #AA8066;
+        }
+        .fa1 {
+            color: #AA8066;
+        }
+        .newStyle3 {
+            font-family: "comic Sans MS";
+            color: #AA8066;
+            font-size: 16px;
+        }
+        .fa1 fa-paper-plane {
+            color: #AA8066;
+        }
+        .newStyle4 {
+            font-family: "comic Sans MS";
+            color: #AA8066;
+        }
+        .auto-style8 {
+            font-size: large;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -54,16 +76,17 @@
 
       <div class="w3-row w3-padding-32 w3-section">
         <div class="w3-col m4 w3-container">
-          <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+          <img src="Images/testmap2.JPG" class="w3-image w3-round" style="width:100%">
         </div>
         <div class="w3-col m8 w3-panel">
           <div class="w3-large w3-margin-bottom">
-            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Dallas, US<br>
-            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:  PrintPaws@gmail.com<br>
+            <i class="fa fa1 fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <span class="newStyle2">Denton,Texas, USA<br>
+              </span>
+            <i class="fa fa1 fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <span class="newStyle2">Phone: +00 151515<br>
+              </span>
+            <i class="fa fa1 fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <span class="newStyle2">Email:  PrintPaws@gmail.com</span><br>
           </div>
-          <p>Swing by for a cup of <i class="fa fa-paw"></i>, or leave me a note:</p>
-          <form action="/action_page.php" target="_blank">
+          <p><span class="newStyle3">Swing by for a petting session <i class="fa fa-paw"></i>, or leave us a note:</span></p>
             <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
               <div class="w3-half">
                 <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -73,11 +96,13 @@
               </div>
             </div>
             <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-            <button class="w3-button w3-black w3-right w3-section" type="submit" id="BtnSendMessage">
-              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            <button class="w3-button w3-right w3-section" runat="server" type="submit" id="BtnSendMessage" onserverclick="BtnSendMessage_Click">
+              <i class="fa fa1 fa-paper-plane"></i> <span class="newStyle4">SEND MESSAGE</span>
             </button>
-          </form>
+
         </div>
+      &nbsp;
+          <asp:Label ID="LblReceived" runat="server" CssClass="auto-style8" Font-Names="Comic Sans MS" ForeColor="#AA8066"></asp:Label>
       </div>
     </div>
 

@@ -221,6 +221,7 @@
         .auto-style1 {
             font-style: normal;
         }
+       
 
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server"/>

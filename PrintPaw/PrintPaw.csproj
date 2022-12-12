@@ -76,12 +76,14 @@
     <Content Include="Images\customer2.jpg" />
     <Content Include="Images\customer3.jpg" />
     <Content Include="Images\DestinyG_Headshot.JPG" />
+    <Content Include="Images\James_Headshot.jpg" />
     <Content Include="Images\KhanhPhan_Headshot.jpeg" />
     <Content Include="Images\kitten-EDIT.jpg" />
     <Content Include="Images\logo-btn.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\NhuMai_Headshot.jpg" />
     <Content Include="Images\NickG_Headshot.jpg" />
+    <Content Include="Images\testmap2.JPG" />
     <Content Include="Login.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Success.aspx" />
