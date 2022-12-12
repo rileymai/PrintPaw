@@ -72,6 +72,8 @@
         .auto-style11 {
             font-size: medium;
         }
+        .w3-third {
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -96,7 +98,7 @@
         <p class="w3-medium">&nbsp;</p>
     </div>
     <p><strong><span class="auto-style7">Opening hours:</span></strong><span class="auto-style7"> everyday from 9am to 5pm.</p>
-    <p class="auto-style7"><strong>Address:</strong> University Drive, Denton, Texas</span></p>
+    <p class="auto-style7"><strong>Address:</strong> University Drive, Denton, Texas</p>
   </div>
 </div>
     
@@ -110,7 +112,7 @@
 
     <div class="w3-third">
     <div class="w3-card w3-white">
-      <img src="Images/customer2.jpg" alt="Snow" style="width:100%;height:405px;">
+      <img src="Images/customer2.jpg" style="width:100%;height:405px;">
       <div class="w3-container">
       <h3 class="newStyle6">Devin & Kayla</h3>
       <h4 class="newStyle4">Children, animal lovers</h4>
@@ -121,18 +123,18 @@
 
     <div class="w3-third">
         <div class="w3-card w3-white">
-          <img src="Images/customer3.jpg" alt="Lights" class="auto-style2">
+          <img src="Images/customer3.jpg" class="auto-style2">
           <div class="w3-container">
           <h3><span class="newStyle5">Jane</span></h3>
           <h4 class="newStyle4">Animal Lover</h4>
-          <p class="newStyle4">Sasha, the golden retriever has been a great addition in my life. She is a caring dog that is always making sure everything is fine. Sasha has been with me for 4 years and I have enjoyed loving a companion like her. My life could not be better without her.</p>
+          <p class="newStyle4">Sasha has been a great addition in my life. She is a caring dog that is always making sure everything is fine. Sasha has been with me for 4 years and I have enjoyed loving a companion like her. My life could not be better without her.</p>
            </div>
          </div>
     </div>
 
     <div class="w3-third">
     <div class="w3-card w3-white">
-      <img src="Images/customer1.jpg" alt="Mountains" style="width:92%; height:405px;">
+      <img src="Images/customer_couple.jpg" style="width:100%; height:405px;">
       <div class="w3-container">
       <h3 class="newStyle3">Josh & Rebecca</h3>
       <h4 class="auto-style10">Newly weds</h4>

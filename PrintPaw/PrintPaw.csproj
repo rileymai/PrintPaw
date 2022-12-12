@@ -72,9 +72,9 @@
     <Content Include="Default.aspx" />
     <Content Include="Donate.aspx" />
     <Content Include="Images\animals-47877_1280.png" />
-    <Content Include="Images\customer1.jpg" />
     <Content Include="Images\customer2.jpg" />
     <Content Include="Images\customer3.jpg" />
+    <Content Include="Images\customer_couple.jpg" />
     <Content Include="Images\DestinyG_Headshot.JPG" />
     <Content Include="Images\James_Headshot.jpg" />
     <Content Include="Images\KhanhPhan_Headshot.jpeg" />

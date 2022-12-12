@@ -273,9 +273,9 @@
           <div class="col-lg-4 col-md-4">
             <h6 class="w3-center"><strong>Quick Links</strong></h6>
             <ul class="footer-links">
-              <li class="w3-center"><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li class="w3-center"><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li class="w3-center"><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li class="w3-center"><a href="AboutUs.aspx">About Us</a></li>
+              <li class="w3-center"><a href="Contact.aspx">Contact Us</a></li>
+              <li class="w3-center"><a href="Donate.aspx/">Donate</a></li>
               
             </ul>
           </div>
