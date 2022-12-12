@@ -27,25 +27,36 @@ namespace PrintPaw
             string pass = "";
             string name = ""; 
 
+            //Declare the connection string and SQL command.
             SqlConnection c = new SqlConnection(sqlSelect.ConnectionString);
             SqlCommand cmdSelect = new SqlCommand(sqlSelect.SelectCommand);
 
+            //Add the parameter values.
             cmdSelect.Parameters.AddWithValue("@Email", TxtUsername.Text.Trim());
             cmdSelect.Parameters.AddWithValue("@Password", TxtPassword.Text.Trim());
 
+            //Declare a data reader to hold results.
             cmdSelect.Connection = c;
             SqlDataReader drReader;
+            
+            //Open connection.
             c.Open();
+            
+            //Execute data reader and set its command behavior to close the connection.
             drReader = cmdSelect.ExecuteReader(CommandBehavior.CloseConnection);
 
+            //Declare the while loop to get the strings from the result.
             while (drReader.Read())
             {
                 email = drReader.GetString(0).Trim();
                 pass = drReader.GetString(1).Trim();
                 name = drReader.GetString(2).Trim() + " " + drReader.GetString(3).Trim();
             }
+            
+            //Close connection.
             c.Close();
-
+            
+            //Run logical test to verify if the credentials match user input into the textboxes.
             if (TxtUsername.Text == email && TxtPassword.Text == pass)
             {
                 //This code is executed if the crednetials match.
