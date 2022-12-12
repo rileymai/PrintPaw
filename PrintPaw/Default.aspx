@@ -150,7 +150,7 @@
           <img src="Images/customer3.jpg" class="auto-style2">
           <div class="w3-container">
           <h3><span class="newStyle5">Jane</span></h3>
-          <h4 class="newStyle4">Animal Lover</h4>
+          <h4 class="newStyle4">Animal lover</h4>
           <p class="newStyle4">Sasha has been a great addition in my life. She is a caring dog that is always making sure everything is fine. Sasha has been with me for 4 years and I have enjoyed loving a companion like her. My life could not be better without her.</p>
            </div>
          </div>
@@ -168,5 +168,4 @@
     </div>
 
 </div>
-</span>
 </asp:Content>
