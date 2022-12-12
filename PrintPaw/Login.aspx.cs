@@ -36,6 +36,8 @@ namespace PrintPaw
         }
         protected void BtnClear_Click(object sender, EventArgs e)
         {
+            TxtUsername.Text = "";
+            TxtPassword.Text = "";
         }
     }
 }

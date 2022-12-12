@@ -5,14 +5,14 @@
      width: 43%;
      }
      .auto-style3 {
-     width: 354px;
-     }
+            width: 500px;
+        }
      .auto-style4 {
-     width: 354px;
+     width: 500px;
      text-align: center;
      }
      .auto-style5 {
-     width: 354px;
+     width: 500px;
      height: 27px;
             font-size: large;
             text-align: center;
@@ -21,15 +21,15 @@
      height: 27px;
      }
         .auto-style7 {
-            width: 354px;
+            width: 500px;
             text-align: center;
             height: 27px;
             color: #AA8066;
             font-family: "comic Sans MS";
-            font-size: 16px;
+            font-size: large;
         }
     .auto-style8 {
-        width: 354px;
+        width: 500px;
         text-align: justify;
     }
         .newStyle1 {
@@ -49,19 +49,30 @@
             font-family: "comic Sans MS";
         }
         .auto-style10 {
-            width: 354px;
+            width: 500px;
             text-align: center;
             color: #AA8066;
             font-family: "comic Sans MS";
-            font-size: 16px;
+            font-size: large;
         }
         .auto-style11 {
             color: #AA8066;
             font-family: "comic Sans MS";
-            font-size: 15px;
+            font-size: large;
         }
         .auto-style12 {
             font-size: 16px;
+        }
+        .auto-style14 {
+            color: #AA8066;
+            font-family: "comic Sans MS";
+            font-size: x-large;
+        }
+        .auto-style15 {
+            font-size: large;
+        }
+        .auto-style16 {
+            font-size: small;
         }
  </style>
 </asp:Content>
@@ -77,7 +88,7 @@
     <p>  </p>
     <table class="auto-style2">
      <tr>
-     <td class="auto-style5"><strong><span class="newStyle1">Sign-In</span></strong></td>
+     <td class="auto-style5"><strong><span class="auto-style14">Sign-In</span></strong></td>
      <td class="auto-style6"></td>
      </tr>
      <tr>
@@ -95,15 +106,15 @@
      </tr>
      <tr>
      <td class="auto-style3">
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
      <asp:Button ID="BtnSubmit" runat="server" OnClick="BtnSubmit_Click"
-    Text="Submit" />
+    Text="Submit" CssClass="auto-style16" />
      &nbsp;
      <asp:Button ID="BtnClear" runat="server" OnClick="BtnClear_Click"
-    Text="Clear" />
+    Text="Clear" CssClass="auto-style16" />
      </td>
      <td>
-     <asp:Label ID="LblError" runat="server" ForeColor="#AA8066"></asp:Label>
+     <asp:Label ID="LblError" runat="server" ForeColor="Maroon"></asp:Label>
      &nbsp;</td>
      </tr>
      <tr>
@@ -114,10 +125,9 @@
      </tr>
      <tr>
      <td class="auto-style8">
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style11">Don&#39;t have an account?</span><br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="auto-style12">
-         <asp:HyperLink ID="hlRegistration1" runat="server" NavigateUrl="~/Registration.aspx">Sign up here!</asp:HyperLink>
-         </span>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<span class="auto-style11">Don&#39;t have an account?</span><br class="auto-style15" />
+         <span class="auto-style15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style12">
+         &nbsp;</span><asp:HyperLink ID="hlRegistration1" runat="server" NavigateUrl="~/Registration.aspx" CssClass="auto-style15">Sign up here!</asp:HyperLink>
      </td>
      <td>
          &nbsp;</td>
