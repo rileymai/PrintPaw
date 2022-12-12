@@ -234,8 +234,10 @@
 <body style="margin-top: 0">
     <form id="form1" runat="server">
         <!-- Navbar (sit on top) -->
-        <div class="nav-bar" id="Navigationbar">     
+        <div class="nav-bar" id="Navigationbar">    
+            <!-- Put page image here -->
             <image src="Images/logo-btn.jpg" id="Logo" style="height:60px; width:150px;padding-left: 15px"/>
+
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small custom-text-color">
               <a href="Default.aspx" class="w3-bar-item w3-button"><i class="fa fa-home"></i>Home</a>

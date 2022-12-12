@@ -74,11 +74,34 @@
         }
         .w3-third {
         }
+        .newStyle7 {
+            color: #AA8066;
+            font-family: "comic Sans MS";
+            font-size: 18px;
+        }
+        .newStyle8 {
+            font-family: "comic Sans MS";
+            color: #AA8066;
+            font-size: 18px;
+        }
+        .newStyle9 {
+            font-family: "comic Sans MS";
+        }
+        .newStyle10 {
+            font-family: "comic Sans MS";
+            color: #AA8066;
+            font-size: 15px;
+            font-style: italic;
+        }
+        .newStyle11 {
+            font-family: "comic Sans MS";
+            font-style: italic;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="w3-display-container w3-animate-opacity">
-        <img src="Images/dogshomepage.jpg" alt="boat" style="width:100%;">
+        <img src="Images/dogshomepage.jpg" style="width:100%;">
         <div class="w3-container w3-display-bottomleft w3-margin-bottom" style="left: -3px; bottom: -18px">  
             <button style="color:#AA8066" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To PrintPaws">PrintPaws</button>
         </div>
@@ -89,16 +112,17 @@
     <h5 class="auto-style4">&nbsp;</h5>
       <h5 class="auto-style5"><span class="newStyle1"><strong>ABOUT OUR WORK</strong></span></h5>
       <p class="auto-style6">&nbsp;</p>
-    <p class="auto-style7">If you’ve ever been to an animal shelter you’ve probably seen the poor conditions most of the animals are forced to live in. The time these animals spend in the shelter while they are waiting for their forever home can be very transformative for them, and people who rescue or adopt animals from shelters can find themselves with an animal that has behavioral issues, anxiety, or trauma. Adopting from a shelter with poor living conditions also means that the family adopting does not get a good picture of what the animal is truly like outside of the shelter environment. In some worst cases this can sometimes lead to that animal being returned to the shelter, further compounding their mental issues.</p>
-    <p class="auto-style7">PawPrints seeks to alleviate these pain points for both people and animals alike by providing a positive environment for the animals to live in while waiting for their new family. Then, after finding their new best friend, families can make sure they stay happy and healthy by vaccinating and purchasing medications through PawPrints. </p>
+    <p class="newStyle7">If you’ve ever been to an animal shelter you’ve probably seen the poor conditions most of the animals are forced to live in. The time these animals spend in the shelter while they are waiting for their forever home can be very transformative for them, and people who rescue or adopt animals from shelters can find themselves with an animal that has behavioral issues, anxiety, or trauma. Adopting from a shelter with poor living conditions also means that the family adopting does not get a good picture of what the animal is truly like outside of the shelter environment. In some worst cases this can sometimes lead to that animal being returned to the shelter, further compounding their mental issues.</p>
+    <p class="newStyle7">PawPrints seeks to alleviate these pain points for both people and animals alike by providing a positive environment for the animals to live in while waiting for their new family. Then, after finding their new best friend, families can make sure they stay happy and healthy by vaccinating and purchasing medications through PawPrints. </p>
     <div class="w3-panel w3-leftbar w3-light-grey">
       <p class="auto-style8">&nbsp;</p>
-        <p class="auto-style8">“Each year, millions of animals are euthanized at local shelters because of overpopulation. Almost half of the animals brought into these shelters are euthanized because suitable homes can’t be found for them. Animal rescue, a cause close to my heart, can lead to the safety of millions of these lost souls.”</p>
-      <p class="w3-medium">- Jane Doe, an animal lover.</p>
+        <p class="newStyle11"><span class="auto-style7">“Each year, millions of animals are euthanized at local shelters because of overpopulation. Almost half of the animals brought into these shelters are euthanized because suitable homes can’t be found for them. Animal rescue, a cause close to my heart, can lead to the safety of millions of these lost souls.”</p>
+      <p class="newStyle11">- Jane Doe, an animal lover.</span></p>
         <p class="w3-medium">&nbsp;</p>
     </div>
-    <p><strong><span class="auto-style7">Opening hours:</span></strong><span class="auto-style7"> everyday from 9am to 5pm.</p>
-    <p class="auto-style7"><strong>Address:</strong> University Drive, Denton, Texas</p>
+    <p class="newStyle8"><strong>Opening hours:</strong> Everyday from 9am to 5pm.</p>
+      <span class="auto-style7"> 
+    <p class="newStyle8"><strong>Address:</strong> University Drive, Denton, Texas</p>
   </div>
 </div>
     
@@ -144,4 +168,5 @@
     </div>
 
 </div>
+</span>
 </asp:Content>
