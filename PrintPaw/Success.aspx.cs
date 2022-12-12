@@ -15,7 +15,7 @@ namespace PrintPaw
             //If it is successful, display a welcome text.
             //If it is not successsul, redirect user to the login.
             //Verify is there is a user session.
-            if (Session["User@gmail.com"] == null)
+            if (Session["User"] == null)
             {
                 //When there is not a value in the login, then redirect to the login again.
                 Response.Redirect("Login.aspx");
@@ -23,7 +23,7 @@ namespace PrintPaw
             else
             {
                 //Page loads the page and displays a welcome message.
-                lblUser.Text = Session["User@gmail.com"].ToString();
+                lblUser.Text = Session["User"].ToString();
             }
         }
     }

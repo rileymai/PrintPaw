@@ -50,6 +50,12 @@
             color: #AA8066;
             font-family: "comic Sans MS";
             height: 25px;
+            margin-left: 40px;
+        }
+        .auto-style14 {
+            color: #AA8066;
+            font-family: "comic Sans MS";
+            margin-left: 40px;
         }
     </style>
 </asp:Content>
@@ -67,51 +73,47 @@
                         <td class="w3-center">
                             <table class="nav-justified">
                                 <tr>
-                                    <td class="newStyle4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First Name:
+                                    <td class="auto-style14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; First Name:
                                         <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="reqFirstName" runat="server" ControlToValidate="txtFirstName" ErrorMessage="Required First Name"></asp:RequiredFieldValidator>
                                     </td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="newStyle4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last Name:
-                                        <asp:TextBox ID="txtLastName" runat="server"></asp:TextBox>
+                                    <td class="auto-style14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Last Name: <asp:TextBox ID="txtLastName" runat="server"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="reqLastName" runat="server" ControlToValidate="txtLastName" ErrorMessage="Required Last Name"></asp:RequiredFieldValidator>
                                     </td>
                                     <td class="auto-style3"></td>
                                 </tr>
                                 <tr>
-                                    <td class="newStyle4">&nbsp;&nbsp;&nbsp; Your Email:&nbsp;
-                                        <asp:TextBox ID="txtEmail" runat="server" TextMode="Email"></asp:TextBox>
+                                    <td class="auto-style14">&nbsp;&nbsp;&nbsp; Your Email:&nbsp; <asp:TextBox ID="txtEmail" runat="server" TextMode="Email"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="reqEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Required Email"></asp:RequiredFieldValidator>
                                     </td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="newStyle4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Re-enter Email:
-                                        <asp:TextBox ID="txtCEmail" runat="server" TextMode="Email"></asp:TextBox>
+                                    <td class="auto-style14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Re-enter Email: <asp:TextBox ID="txtCEmail" runat="server" TextMode="Email"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="reqCEmail" runat="server" ControlToValidate="txtCEmail" ErrorMessage="Please re-enter your email address."></asp:RequiredFieldValidator>
-                                        <asp:CompareValidator ID="compareEmail" runat="server" ControlToCompare="txtEmail" ControlToValidate="txtCEmail" ErrorMessage="Your emails do not match. Please try again."></asp:CompareValidator>
+                                        <asp:CompareValidator ID="compareEmail" runat="server" ControlToCompare="txtEmail" ControlToValidate="txtCEmail" ErrorMessage="Your emails do not match. "></asp:CompareValidator>
                                     </td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="newStyle4">&nbsp;&nbsp;&nbsp;&nbsp; New Password:&nbsp;
+                                    <td class="auto-style14">&nbsp;&nbsp; &nbsp;&nbsp; New Password:&nbsp;
                                         <asp:TextBox ID="txtPass" runat="server" TextMode="Password"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtPass" ErrorMessage="Enter a password.       "></asp:RequiredFieldValidator>
 &nbsp;</td>
                                     <td>&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="newStyle4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Confirm Password:
-                                        <asp:TextBox ID="txtCPass" runat="server" TextMode="Password"></asp:TextBox>
+                                    <td class="auto-style14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Confirm Password: <asp:TextBox ID="txtCPass" runat="server" TextMode="Password"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="reqCPassword" runat="server" ControlToValidate="txtCPass" ErrorMessage="Please re-enter your password."></asp:RequiredFieldValidator>
-                                        <asp:CompareValidator ID="comparePasswords" runat="server" ControlToCompare="txtPass" ControlToValidate="txtCPass" ErrorMessage="Your passwords do not match. Please try again."></asp:CompareValidator>
+                                        <asp:CompareValidator ID="comparePasswords" runat="server" ControlToCompare="txtPass" ControlToValidate="txtCPass" ErrorMessage="Your passwords do not match."></asp:CompareValidator>
                                     </td>
                                     <td class="auto-style3"></td>
                                 </tr>
                                 <tr>
-                                    <td class="auto-style13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Year of Birth:
+                                    <td class="auto-style13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Year of Birth:
                                         <asp:TextBox ID="txtYOB" runat="server"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="reqYOB" runat="server" ControlToValidate="txtYOB" ErrorMessage="Required Year of Birth"></asp:RequiredFieldValidator>
                                     </td>
@@ -157,31 +159,14 @@
         </tr>
         <tr>
             <td>
-                <asp:SqlDataSource ID="sqlInsert" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:Student4720ConnectionString %>" DeleteCommand="DELETE FROM [Login] WHERE [Email] = @original_Email AND [Password] = @original_Password AND [FName] = @original_FName AND [LName] = @original_LName AND [YOB] = @original_YOB" InsertCommand="INSERT INTO [Login] ([Email], [Password], [FName], [LName], [YOB]) VALUES (@Email, @Password, @FName, @LName, @YOB)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT [Email], [Password], [FName], [LName], [YOB] FROM [Login]" UpdateCommand="UPDATE [Login] SET [Password] = @Password, [FName] = @FName, [LName] = @LName, [YOB] = @YOB WHERE [Email] = Email AND [Password] = @original_Password AND [FName] = @original_FName AND [LName] = @original_LName AND [YOB] = @original_YOB">
-                    <DeleteParameters>
-                        <asp:Parameter Name="original_Email" Type="String" />
-                        <asp:Parameter Name="original_Password" Type="String" />
-                        <asp:Parameter Name="original_FName" Type="String" />
-                        <asp:Parameter Name="original_LName" Type="String" />
-                        <asp:Parameter Name="original_YOB" Type="Int32" />
-                    </DeleteParameters>
+                <asp:SqlDataSource ID="sqlInsert" runat="server" ConnectionString="<%$ ConnectionStrings:F22Team7ConnectionString %>" InsertCommand="INSERT INTO [Login] ([Email], [Password], [FName], [LName], [YOB]) VALUES (@Email, @Password, @FName, @LName, @YOB)" OldValuesParameterFormatString="original_{0}" SelectCommand="SELECT [Email], [Password], [FName], [LName], [YOB] FROM [Login]">
                     <InsertParameters>
                         <asp:Parameter Name="Email" Type="String" />
                         <asp:Parameter Name="Password" Type="String" />
                         <asp:Parameter Name="FName" Type="String" />
                         <asp:Parameter Name="LName" Type="String" />
-                        <asp:Parameter Name="YOB" Type="Int32" />
+                        <asp:Parameter Name="YOB" Type="String" />
                     </InsertParameters>
-                    <UpdateParameters>
-                        <asp:Parameter Name="Password" Type="String" />
-                        <asp:Parameter Name="FName" Type="String" />
-                        <asp:Parameter Name="LName" Type="String" />
-                        <asp:Parameter Name="YOB" Type="Int32" />
-                        <asp:Parameter Name="original_Password" Type="String" />
-                        <asp:Parameter Name="original_FName" Type="String" />
-                        <asp:Parameter Name="original_LName" Type="String" />
-                        <asp:Parameter Name="original_YOB" Type="Int32" />
-                    </UpdateParameters>
                 </asp:SqlDataSource>
             </td>
             <td>&nbsp;</td>

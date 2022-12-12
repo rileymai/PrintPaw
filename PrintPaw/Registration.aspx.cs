@@ -31,8 +31,6 @@ namespace PrintPaw
             cmdInsert.ExecuteNonQuery();
             c.Close();
             Response.Redirect("Success.aspx");
-       
-
         }
     }
 }
