@@ -71,6 +71,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Donate.aspx" />
+    <Content Include="HowItWorks.aspx" />
     <Content Include="Images\animals-47877_1280.png" />
     <Content Include="Images\customer1.jpg" />
     <Content Include="Images\customer2.jpg" />
@@ -82,6 +83,7 @@
     <Content Include="Images\logo.png" />
     <Content Include="Images\NhuMai_Headshot.jpg" />
     <Content Include="Images\NickG_Headshot.jpg" />
+    <Content Include="Images\prints.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Success.aspx" />
@@ -115,6 +117,13 @@
     </Compile>
     <Compile Include="Donate.aspx.designer.cs">
       <DependentUpon>Donate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HowItWorks.aspx.cs">
+      <DependentUpon>HowItWorks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HowItWorks.aspx.designer.cs">
+      <DependentUpon>HowItWorks.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
