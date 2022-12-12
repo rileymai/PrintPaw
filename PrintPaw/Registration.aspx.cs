@@ -19,17 +19,28 @@ namespace PrintPaw
 
         protected void btnCreate_Click(object sender, EventArgs e)
         {
+            //Set the connection string and command.
             SqlConnection c = new SqlConnection(sqlInsert.ConnectionString);
             SqlCommand cmdInsert = new SqlCommand(sqlInsert.InsertCommand);
+            
             cmdInsert.Connection = c;
+            //Configure the command with connection and all the parameter values.
             cmdInsert.Parameters.AddWithValue("@Email", txtEmail.Text);
             cmdInsert.Parameters.AddWithValue("@Password", txtPass.Text);
             cmdInsert.Parameters.AddWithValue("@FName", txtFirstName.Text);
             cmdInsert.Parameters.AddWithValue("@LName", txtLastName.Text);
             cmdInsert.Parameters.AddWithValue("@YOB", txtYOB.Text);
+            
+            //Open connection.
             c.Open();
+            
+            //Execute non query.
             cmdInsert.ExecuteNonQuery();
+            
+            //Close connection.
             c.Close();
+            
+            //Send session variable to the success page. 
             Response.Redirect("Success.aspx");
         }
     }
