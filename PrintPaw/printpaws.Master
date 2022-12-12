@@ -223,8 +223,38 @@
         }
        
 
-        .auto-style2 {
-            font-size: 21px;
+        .w3-hide-small {
+            font-family: "comic Sans MS";
+        }
+        .newStyle1 {
+            font-family: "comic Sans MS";
+        }
+        .newStyle2 {
+            font-family: "comic Sans MS";
+        }
+        .newStyle3 {
+            font-family: "comic Sans MS";
+        }
+        .newStyle4 {
+            font-family: "comic Sans MS";
+        }
+        .newStyle5 {
+            font-family: "comic Sans MS";
+        }
+        .newStyle6 {
+            font-family: "comic Sans MS";
+        }
+        .newStyle7 {
+            font-family: "comic Sans MS";
+        }
+        .newStyle8 {
+            font-family: "comic Sans MS";
+        }
+       
+
+        .newStyle9 {
+            font-family: "comic Sans MS";
+            font-weight: lighter;
         }
        
 
@@ -240,12 +270,12 @@
 
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small custom-text-color">
-              <a href="Default.aspx" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Home</a>
-              <a href="AboutUs.aspx" class="w3-bar-item w3-button"><i class="fa fa-users"></i> About Us</a>
-              <a href="Howitworks.aspx" class="w3-bar-item w3-button"><i class="fa fa-book"></i> How It Works</a>
-              <a href="Donate.aspx" class="w3-bar-item w3-button"><i class="fa fa-paw"></i> Donate Now</a>
-              <a href="Login.aspx" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Login</a>
-              <a href="Contact.aspx" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
+              <a href="Default.aspx" class="w3-bar-item w3-button"><i class="fa fa-home"></i> <span class="w3-hide-small">Home</span></a>
+              <a href="AboutUs.aspx" class="w3-bar-item w3-button"><i class="fa fa-users"></i> <span class="w3-hide-small">About Us</span></a>
+              <a href="Howitworks.aspx" class="w3-bar-item w3-button"><i class="fa fa-book"></i> <span class="w3-hide-small">How It Works</span></a>
+              <a href="Donate.aspx" class="w3-bar-item w3-button"><i class="fa fa-paw"></i> <span class="w3-hide-small">Donate Now</span></a>
+              <a href="Login.aspx" class="w3-bar-item w3-button"><i class="fa fa-user"></i> <span class="w3-hide-small">Login</span></a>
+              <a href="Contact.aspx" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> <span class="w3-hide-small">Contact</span></a>
                 </div>
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
         </div>
@@ -260,24 +290,24 @@
         <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4">
-            <h6 class="w3-center"><strong><em class="auto-style1">About</em></strong></h6>
-            <p class="text-justify">PawPrints is a non-profit organization that is dedicated to giving dogs a temporary home to live in until they are ready to be adopted. Our animal rescue is specifically tailored to dogs because every person needs a best friend.</p>
+            <h6 class="w3-center"><strong class="newStyle1"><em class="auto-style1">About</em></strong></h6>
+            <p class="text-justify"><span class="newStyle9">PawPrints is a non-profit organization that is dedicated to giving dogs a temporary home to live in until they are ready to be adopted. Our animal rescue is specifically tailored to dogs because every person needs a best friend.</span></p>
           </div>
 
           <div class="col-lg-4 col-md-4">
-            <h6 class="w3-center"><strong>Contact Us</strong></h6>
+            <h6 class="w3-center"><strong class="newStyle3">Contact Us</strong></h6>
             <ul class="footer-links">
-                <li class="w3-center"><a>(425) 452 - 1234</a></li>
-                <li class="w3-center"><a>PrintPaws@gmail.com</a></li>
+                <li class="w3-center"><a class="newStyle9">(425) 452 - 1234</a></li>
+                <li class="w3-center"><a class="newStyle9">PrintPaws@gmail.com</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-4">
-            <h6 class="w3-center"><strong>Quick Links</strong></h6>
+            <h6 class="w3-center"><strong class="newStyle6">Quick Links</strong></h6>
             <ul class="footer-links">
-              <li class="w3-center"><a href="AboutUs.aspx">About Us</a></li>
-              <li class="w3-center"><a href="Contact.aspx">Contact Us</a></li>
-              <li class="w3-center"><a href="Donate.aspx/">Donate</a></li>
+              <li class="w3-center"><a href="AboutUs.aspx" class="newStyle9">About Us</a></li>
+              <li class="w3-center"><a href="Contact.aspx" class="newStyle9">Contact Us</a></li>
+              <li class="w3-center"><a href="Donate.aspx" class="newStyle9">Donate</a></li>
               
             </ul>
           </div>
