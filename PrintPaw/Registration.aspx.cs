@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Registration Page
+// By Khanh Phan
+// Last updated 12/12/2022
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

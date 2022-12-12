@@ -1,4 +1,8 @@
-﻿using System;
+﻿// HowItWorks Page
+// By Nick Goddard
+// Last updated 12/12/2022
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +20,7 @@ namespace PrintPaw
 
         protected void btnDonateHiW_Click(object sender, EventArgs e)
         {
+            // Redirect to donate page
             Response.Redirect("Donate.aspx");
         }
     }
