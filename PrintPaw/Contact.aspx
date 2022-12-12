@@ -50,7 +50,7 @@
             font-family: "comic Sans MS";
             color: #AA8066;
         }
-        .auto-style8 {
+        .auto-lbl {
             font-size: large;
         }
     </style>
@@ -102,7 +102,7 @@
 
         </div>
       &nbsp;
-          <asp:Label ID="LblReceived" runat="server" CssClass="auto-style8" Font-Names="Comic Sans MS" ForeColor="#AA8066"></asp:Label>
+          <asp:Label ID="LblReceived" runat="server" CssClass="auto-lbl" Font-Names="Comic Sans MS" ForeColor="#AA8066"></asp:Label>
       </div>
     </div>
 

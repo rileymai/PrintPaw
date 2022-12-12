@@ -138,7 +138,7 @@
                     </tr>
                     <tr>
                         <td class="auto-style12">&nbsp;
-                            <asp:Button ID="btnCreate" runat="server" BackColor="#FFCC99" BorderStyle="Solid" ForeColor="Black" OnClick="btnCreate_Click" Text="Create new account" Width="220px" />
+                            <asp:Button ID="btnCreate" runat="server" BackColor="#FFCC99" BorderStyle="Solid" ForeColor="Black" OnClick="btnCreate_Click" Text="Create new account" Width="245px" />
                         </td>
                         <td class="auto-style3"></td>
                     </tr>

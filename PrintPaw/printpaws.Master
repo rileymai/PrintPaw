@@ -240,9 +240,9 @@
 
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small custom-text-color">
-              <a href="Default.aspx" class="w3-bar-item w3-button"><i class="fa fa-home"></i>Home</a>
+              <a href="Default.aspx" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Home</a>
               <a href="AboutUs.aspx" class="w3-bar-item w3-button"><i class="fa fa-users"></i> About Us</a>
-              <a href="Howitworks.aspx" class="w3-bar-item w3-button"><i class="fa fa-book"></i><span class="auto-style2"> How It Works</span></a>
+              <a href="Howitworks.aspx" class="w3-bar-item w3-button"><i class="fa fa-book"></i> How It Works</a>
               <a href="Donate.aspx" class="w3-bar-item w3-button"><i class="fa fa-paw"></i> Donate Now</a>
               <a href="Login.aspx" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Login</a>
               <a href="Contact.aspx" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
