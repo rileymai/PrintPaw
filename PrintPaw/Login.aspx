@@ -23,7 +23,7 @@
         .auto-style7 {
             width: 500px;
             text-align: center;
-            height: 27px;
+            height: 41px;
             color: #AA8066;
             font-family: "comic Sans MS";
             font-size: large;
@@ -74,6 +74,9 @@
         .auto-style16 {
             font-size: small;
         }
+        .auto-style17 {
+            height: 41px;
+        }
  </style>
 </asp:Content>
 
@@ -88,25 +91,25 @@
     <p>  &nbsp;</p>
     <table class="auto-style2">
      <tr>
-     <td class="auto-style5"><strong><span class="auto-style14">Sign-In</span></strong></td>
+     <td class="auto-style5"><strong><span class="auto-style14">&nbsp;Sign-In</span></strong></td>
      <td class="auto-style6"></td>
      </tr>
      <tr>
-     <td class="auto-style10">Username</td>
+     <td class="auto-style10">&nbsp; Username</td>
      <td>
      <asp:TextBox ID="TxtUsername" runat="server" TextMode="Email"></asp:TextBox>
      </td>
      </tr>
      <tr>
      <td class="auto-style7">Password</td>
-     <td class="auto-style6">
+     <td class="auto-style17">
      <asp:TextBox ID="TxtPassword" runat="server"
     TextMode="Password"></asp:TextBox>
      </td>
      </tr>
      <tr>
      <td class="auto-style3">
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      <asp:Button ID="BtnSubmit" runat="server" OnClick="BtnSubmit_Click"
     Text="Submit" CssClass="auto-style16" />
      &nbsp;
@@ -125,8 +128,8 @@
      </tr>
      <tr>
      <td class="auto-style8">
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<span class="auto-style11">Don&#39;t have an account?</span><br class="auto-style15" />
-         <span class="auto-style15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style12">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<span class="auto-style11">Don&#39;t have an account?</span><br class="auto-style15" />
+         <span class="auto-style15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; </span><span class="auto-style12">
          &nbsp;</span><asp:HyperLink ID="hlRegistration1" runat="server" NavigateUrl="~/Registration.aspx" CssClass="auto-style15">Sign up here!</asp:HyperLink>
      </td>
      <td>
