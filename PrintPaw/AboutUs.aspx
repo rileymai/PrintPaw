@@ -439,9 +439,11 @@
                 font-weight:lighter;
             }
     .auto-style5 {
+       
             font-size: medium;
         }
     .newStyle1 {
+             font-family: "Comic Sans MS";
             color: #AA8066;
         }
     .newStyle2 {
@@ -466,8 +468,8 @@
       <div class="content-box">
         <p class="auto-style4"><strong class="newStyle2">About the Team </strong>
         </p>
-        <p class="auto-style2"><span class="newStyle4"><strong>The first stage of PawPrints development will be characterized by structural simplicity, utilizing a nearly flat organizational structure. PawPrints will initially select 2-3 physical locations to begin locally and to simplify management across the firm. Based on this structure, the firm will be divided into functional departments that employ generalists in their respective functional areas.
-        </strong></span>
+        <p class="auto-style2"><span class="newStyle4">The first stage of PawPrints development will be characterized by structural simplicity, utilizing a nearly flat organizational structure. PawPrints will initially select 2-3 physical locations to begin locally and to simplify management across the firm. Based on this structure, the firm will be divided into functional departments that employ generalists in their respective functional areas.
+        </span>
         </p>
       </div>
     </div>

@@ -22,7 +22,7 @@
             font-size: large;
             text-align: left;
         }
-        .newStyle3 {
+        .newStyleList {
             font-family: "comic Sans MS";
             color: #AA8066;
             font-size: large;
@@ -86,9 +86,9 @@
         <p class="auto-style8">
             <o:p></o:p>
         </p>
-        <p class="newStyle3">
+        <p class="newStyleList">
             <strong>Popular Donated Items:</strong></p>
-        <p class="newStyle3">
+        <p class="newStyleList">
 &nbsp;<span class="auto-style5">- Wet kitten/cat food<o:p> </span> </o:p>
         </p>
         <p class="auto-style4">
