@@ -5,6 +5,7 @@
             font-size: xx-large;
             text-align: center;
             color: #AA8066;
+            height: 9px;
         }
         .auto-style4 {
             font-size: large;
@@ -53,11 +54,17 @@
         .auto-lbl {
             font-size: large;
         }
+        .auto-style8 {
+            font-size: 41px;
+            text-align: center;
+            color: #AA8066;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h5 class="auto-style2"><strong>Contact Us</strong></h5>
+    <h5 class="auto-style2">&nbsp;</h5>
+    <h5 class="auto-style8"><strong>Contact Us</strong></h5>
     <div class="w3-center">
         <img src="Images/kitten-EDIT.jpg" alt="boat" style="width:400px;height:400px;object-fit:cover;object-position:30% 0;margin-bottom:30px;border-radius:50%;margin-top: 40px;">
     </div>
