@@ -59,6 +59,11 @@
             text-align: center;
             color: #AA8066;
         }
+        .newStyle10 {
+            font-family: "comic Sans MS";
+            font-size: large;
+            color: #AA8066;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -70,7 +75,7 @@
     </div>
     <p>
         &nbsp;</p>
-    <h1 class="auto-style4"><span class="custom-text-color">You can reach us by phone at (425) 452-1234 or by emailing us at </span><a class="custom-text-color" href="mailto:PrintPaws@gmail.com">PrintPaws@gmail.com</a><span class="custom-text-color">. Office hours of operation are as follows:</span></h1>
+    <h1 class="auto-style4"><span class="newStyle10">You can reach us by phone at (425) 452-1234 or by emailing us at <a class="custom-text-color" href="mailto:PrintPaws@gmail.com">PrintPaws@gmail.com</a>. Office hours of operation are as follows:</span></h1>
     <h3 class="auto-style5"><strong>Monday - Thursday: 9:00am - 5:00pm</strong></h3>
     <h3 class="auto-style5"><strong>Friday : 10:00am - 4:00pm</strong></h3>
     <h3 class="auto-style5"><strong>Saturday: 10:00am - 2:00pm</strong></h3>
@@ -89,7 +94,7 @@
           <div class="w3-large w3-margin-bottom">
             <i class="fa fa1 fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <span class="newStyle2">Denton,Texas, USA<br>
               </span>
-            <i class="fa fa1 fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <span class="newStyle2">Phone: +00 151515<br>
+            <i class="fa fa1 fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <span class="newStyle2">Phone: (425) 452-1234<br>
               </span>
             <i class="fa fa1 fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <span class="newStyle2">Email:  PrintPaws@gmail.com</span><br>
           </div>
