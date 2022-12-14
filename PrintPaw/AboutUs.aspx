@@ -436,6 +436,7 @@
              }
     .auto-style4 {
                 font-size: 40px;
+                font-weight:lighter;
             }
     .auto-style5 {
             font-size: medium;
@@ -454,6 +455,7 @@
     .newStyle4 {
             font-family: "Comic Sans MS";
             color: #AA8066;
+            font-weight:lighter;
         }
         
      </style>

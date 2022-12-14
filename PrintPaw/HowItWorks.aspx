@@ -5,7 +5,7 @@
             width: 917px;
             height: 343px;
         }
-        .newStyle1 {
+        .newStyle {
             font-family: "comic Sans MS";
             font-size: 36px;
             font-weight: bold;
@@ -58,7 +58,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="w3-center">
         <p></p>
-        <h1><span class="newStyle1">How It Works</span><br />
+        <h1><span class="newStyle">How It Works</span><br />
             <br />
             <img src="Images/dogshomepage.jpg" style="width:100%;">
         <h1><br />
